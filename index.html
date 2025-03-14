@@ -12,6 +12,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
         }
 
         #button {
@@ -21,17 +27,28 @@
             margin-top: 5px;
             border-radius: 5px;
         }
+
+        legend{
+            font-size: 20px;
+            margin-bottom: 20px;
+            align-self: center;
+            font-weight: 800;
+        }
+
+        input{
+            margin-bottom: 10px;
+        }
     </style>
 
 </head>
 <body>
     
     <form action="">
-        <legend>github form</legend>
-        <label for="">enter your name</label><br>
-        <input type="text" name="" id="" placeholder="name"><br>
-        <label for="">enter your email adress</label><br>
-        <input type="text" name="" id="" placeholder="email"><br>
+        <legend>Github form</legend>
+        <label for="">enter your name</label>
+        <input type="text" name="" id="" placeholder="name">
+        <label for="">enter your email adress</label>
+        <input type="text" name="" id="" placeholder="email">
         <input  type="submit" name="" id="button" value="submit">
     </form>
 </body>
